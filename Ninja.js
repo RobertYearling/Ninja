@@ -21,10 +21,13 @@ class Ninja {
 }
 const ninja1 = new Ninja("Tom", 50);
 const ninja2 = new Ninja("Webster", 30);
-
+ninja1.sayName();
+ninja2.sayName();
 ninja1.showStats();
 ninja1.drinkSake();
+ninja1.drinkSake();
 ninja1.showStats();
+ninja2.drinkSake();
 ninja2.drinkSake();
 ninja2.drinkSake();
 ninja2.drinkSake();
